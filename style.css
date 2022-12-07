@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+header {
+    background-color: #1F2937;
+}
+
+.links img {
+    width: 100px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+.photoSection img {
+    width: 200px;
+    height: 200px;
+}
+
+.imgPlaceholder img {
+    width: 300px;
+}
+
+.photoSection {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB
+}
