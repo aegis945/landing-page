@@ -142,10 +142,10 @@ ul {
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 150px;
     background-color: #3882F6;
     height: 100px;
-    margin: 30px 300px;
+    margin: 30px 450px;
     border-radius: 10px;
 }
 
