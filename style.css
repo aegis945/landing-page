@@ -136,3 +136,56 @@ ul {
     margin-left: 340px;
     font-weight: 600;
 }
+
+.register {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    background-color: #3882F6;
+    height: 100px;
+    margin: 30px 300px;
+    border-radius: 10px;
+}
+
+.leftSide {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.registerText,
+.registerSubtext {
+    color: #F9FAF8;
+}
+
+.registerText {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.registerSubtext {
+    font-size: 14px;
+}
+
+.bookBtn {
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 10px;
+    color: #F9FAF8;
+    width: 160px;
+    height: 35px;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: #1F2937;
+    height: 70px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
