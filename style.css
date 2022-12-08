@@ -4,6 +4,7 @@ body {
     justify-content: space-between;
     margin: 0;
     min-height: 100vh;
+    font-family: "Montserrat";
 }
 
 header {
@@ -82,4 +83,50 @@ ul {
     font-weight: bolder;
     color: #E5E7EB;
     border-color: #3882F6;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-bottom: 50px;
+}
+
+.title,
+.photoSection {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.photoSection {
+    margin-bottom: 50px;
+}
+
+.text {
+    font-size: 18px;
+    color: #000000;
+}
+
+.quoteContainer {
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quoteAuthor {
+    margin-top: 20px;
+    margin-left: 350px;
+    font-weight: 600;
 }
